@@ -1,0 +1,317 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+ <body>
+   <header class="navbar">
+      <div class="spotify-icon" title="Go to Spotify Home"></div>
+      <button class="home_button" title="Go to Spotify Home">
+          <i class="fa-solid fa-house"></i>
+      </button>
+      <div class="searchbar">
+          <div class="searchicon" title="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input placeholder="What do you want to play?" class="search-input">
+          <div class="browse" title="Browse">
+              <i class="fa-solid fa-window-restore"></i>
+          </div>
+      </div>
+      <div class="explore" title="Explore Premium"> Explore Premium </div>
+      <div class="download-install" title="Install App">
+          <i class="fa-solid fa-arrow-down"></i>
+          <span>Install App</span>
+      </div>
+      <div class="notif" title="What's New">
+          <i class="fa-regular fa-bell"></i>
+      </div>
+      <div class="name" title="ShivShome"> S</div>      
+    </header>
+  <div class="container">
+    <div class="sidebar">
+      <div class="topbar">
+        <div class="uppertop">
+          <div class="books" title="Your Library">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <div class="lib">Your Library</div>
+          <div class="plus0" title="Add New">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="middletop">
+          <div class="playlist" title="Playlists">Playlists</div>
+          <div class="artist" title="Artists">Artists</div>
+        </div>
+        <div class="bottomtop">
+          <div class="glass">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="rece" title="Recently Added">Recently Added</div>
+        </div>
+      </div>
+      <div class="playlists-section">
+        <div class="playlist-item">
+          <div class="playlist-image">
+            <img src="likedsongs.png" alt="Workout Playlist" />
+          </div>
+          <div class="playlist-details">
+            <div class="playlist-name">Liked Songs</div>
+            <div class="playlist-type">Playlist • 2 songs</div>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="playlist-image">
+            <img src="wk.jpeg" alt="Shivshome Playlist" />
+          </div>
+          <div class="playlist-details">
+            <div class="playlist-name">Wk</div>
+            <div class="playlist-type">Playlist • Shivshome</div>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="playlist-image">
+            <img src="workout.jpeg" alt="Chill Vibes Playlist" />
+          </div>
+          <div class="playlist-details">
+            <div class="playlist-name">Workout</div>
+            <div class="playlist-type">Playlist • Shivshome</div>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="playlist-image">
+            <img src="focus.jpeg" alt="Focus Playlist" />
+          </div>
+          <div class="playlist-details">
+            <div class="playlist-name">Focus</div>
+            <div class="playlist-type">Playlist</div>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <div class="playlist-image">
+            <img src="partyhits.jpeg" alt="Party Hits Playlist" />
+          </div>
+          <div class="playlist-details">
+            <div class="playlist-name">Party Hits</div>
+            <div class="playlist-type">Playlist</div>
+          </div>
+        </div>
+      </div>
+      <div class="artists-section">
+        <div class="artist-item">
+          <div class="artist-image">
+            <img src="vishal-shekhar.jpg" alt="Vishal-Shekhar" />
+          </div>
+          <div class="artist-details">
+            <div class="artist-name">Vishal-Shekhar</div>
+            <div class="artist-type">Artist</div>
+          </div>
+        </div>
+        <div class="artist-item">
+          <div class="artist-image">
+            <img src="guru-randhawa.jpg" alt="Guru Randhawa" />
+          </div>
+          <div class="artist-details">
+            <div class="artist-name">Guru Randhawa</div>
+            <div class="artist-type">Artist</div>
+          </div>
+        </div>
+        <div class="artist-item">
+          <div class="artist-image">
+            <img src="honey-singh.jpg" alt="Yo Yo Honey Singh" />
+          </div>
+          <div class="artist-details">
+            <div class="artist-name">Yo Yo Honey Singh</div>
+            <div class="artist-type">Artist</div>
+          </div>
+        </div>
+        <div class="artist-item">
+          <div class="artist-image">
+            <img src="arijit-singh.jpg" alt="Arijit Singh" />
+          </div>
+          <div class="artist-details">
+            <div class="artist-name">Arijit Singh</div>
+            <div class="artist-type">Artist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainbar">
+      <h2>Recommended Stations</h2>
+      <div class="stations-container">
+          <div class="station-card">
+              <div class="station-image" style="background-color: #FFD700;">
+                  <img src="arijit-singh.jpg" alt="Arijit Singh">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Arijit Singh</h3>
+              <p>With Sachin-Jigar, Mithoon, Jeet Gannguli...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #CDA2FF;">
+                  <img src="guru-randhawa.jpg" alt="Guru Randhawa">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Guru Randhawa</h3>
+              <p>With Sunanda Sharma, Badshah, Millind Gaba...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #ADFF2F;">
+                  <img src="honey-singh.jpg" alt="Yo Yo Honey Singh">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Yo Yo Honey Singh</h3>
+              <p>With Badshah, Diljit Dosanjh, Guru Randhawa...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #FFDAB9;">
+                  <img src="garry.jpg" alt="Garry Sandhu">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Garry Sandhu</h3>
+              <p>With Kulwinder Billa, Amrit Maan, Maninder...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #87CEEB;">
+                  <img src="badshah.jpg" alt="Badshah">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Badshah</h3>
+              <p>With Harrdy Sandhu, Yo Yo Honey Singh...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #98FB98;">
+                  <img src="vishal.jpg" alt="Vishal-Shekhar">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Vishal-Shekhar</h3>
+              <p>With Pritam, Mohit Chauhan...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #FFC0CB;">
+                  <img src="neha.jpg" alt="Neha Kakkar">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Neha Kakkar</h3>
+              <p>With Tony Kakkar, Jubin Nautiyal, Badshah...</p>
+          </div>
+          <div class="station-card">
+              <div class="station-image" style="background-color: #FFA07A;">
+                  <img src="atif.jpg" alt="Atif Aslam">
+                  <span class="spotify-icon"></span>
+                  <span class="station-label">RADIO</span>
+              </div>
+              <h3>Atif Aslam</h3>
+              <p>With Rahat Fateh Ali Khan, Shreya Ghoshal...</p>
+          </div>
+      </div>
+      <h2>Best of Artists</h2>
+    <div class="artists-container">
+        <!-- New artist cards -->
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisarijit.jpeg" alt="Arijit Singh" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Arijit Singh</h3>
+            <p>Bollywood crooner's essential songs.</p>
+        </div>
+
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisyoyo.jpg" alt="Yo Yo Honey Singh" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Yo Yo Honey Singh</h3>
+            <p>This is Yo Yo Honey Singh. The essential tracks, all in one playlist.</p>
+        </div>
+
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisguru.jpg" alt="Guru Randhawa" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Guru Randhawa</h3>
+            <p>This is Guru Randhawa. The essential tracks, all in one playlist.</p>
+        </div>
+
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisgarry.jpg" alt="Garry Sandhu" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Garry Sandhu</h3>
+            <p>This is Garry Sandhu. The essential tracks, all in one playlist.</p>
+        </div>
+
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisbadshah.jpeg" alt="Badshah" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Badshah</h3>
+            <p>Badshah's essential tracks, all in one playlist.</p>
+        </div>
+
+        <div class="artist-card">
+            <div class="artist-image">
+                <img src="thisisvishal.jpg" alt="Vishal-Shekhar" />
+                <div class="spotify-icon"></div>
+            </div>
+            <h3>Vishal-Shekhar</h3>
+            <p>This is Vishal-Shekhar. The essential tracks, all in one playlist.</p>
+        </div>
+   </div>
+   </div>
+   </div>
+   <footer class="footer">
+    <div class="pt1">
+      <div class="thumbnail"></div>
+      <div class="song-info">
+        <div class="song-name">Die With A Smile</div>
+        <div class="artist-name">Lady Gaga,Bruno Mars</div>
+      </div>
+      <div class="plus"> <i class="fa-solid fa-plus"></i></div>
+    </div>
+    <div class="pt2">
+      <div class="controls">
+        <button class="buttons"><i class="fa-solid fa-shuffle"></i></button>
+        <button class="buttons"><i class="fa-solid fa-backward-step"></i></button>
+        <button class="play"><i class="fa-solid fa-pause"></i></button>
+        <button class="buttons"><i class="fa-solid fa-forward-step"></i></button>
+        <button class="buttons"><i class="fa-solid fa-repeat"></i></button>
+      </div>
+      <div class="progress-bar">
+        <input type="range" class="progress" min="0" max="100" value="50" />
+      </div>
+    </div>
+    <div class="pt3">
+      <button class="buttons"><i class="fa-solid fa-list"></i></button>
+      <button class="buttons"><i class="fa-solid fa-laptop"></i></button>
+      <button class="buttons"><i class="fa-solid fa-microphone"></i></i></button>
+      <button class="buttons"><i class="fa-solid fa-headphones"></i></i></i></i></button>
+      <div class="volume-control">
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" class="volume" min="0" max="100" value="70" />
+      </div>
+      <button class="buttons"><i class="fa-solid fa-rectangle-xmark"></i></i></i></button>
+      <button class="buttons"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></i></button>
+      
+    </div>
+  </footer>
+  
+    
+</body>
+ </html>
